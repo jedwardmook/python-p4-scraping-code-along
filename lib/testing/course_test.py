@@ -8,6 +8,7 @@ class Test_Course:
     def test_title_instance_variable(self):
         "Test setting and getting for title"
         course = Course(title="Programming Robots for Outer Space")
+        print(course.title)
         assert(course.title == "Programming Robots for Outer Space")
 
     def test_schedule_instance_variable(self):
